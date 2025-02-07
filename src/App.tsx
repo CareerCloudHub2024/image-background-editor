@@ -170,7 +170,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-between">
             <h1 className="text-2xl font-bold text-gray-800">
-              BG
+              Background Editor
             </h1>
             {!isIOS && (
               <div className="flex items-center gap-4">
@@ -214,9 +214,6 @@ export default function App() {
               </p>
               <p className="text-gray-500">
                 Upload your image and let our AI remove the background instantly. Perfect for professional photos, product images, and more.
-              </p>
-              <p className="text-sm text-gray-300 mt-4">
-                Built with love by Addy Osmani using Transformers.js
               </p>
             </div>
           )}
